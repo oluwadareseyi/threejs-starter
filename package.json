@@ -5,7 +5,7 @@
   "author": "Seyi",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn parcel src/index.html"
+    "dev": "rm -rf .parcel-cache && yarn parcel src/index.html"
   },
   "devDependencies": {
     "@parcel/transformer-glsl": "2.0.0-rc.0",
